@@ -1,0 +1,24 @@
+type Movie {
+  title: String!
+  year: Float!
+  rating: Float!
+  scoutbase_rating: String
+  actors: [Actor]
+}
+
+type Actor {
+  name: String!
+  birthday: String!
+  country: String!
+  directors: [Director]
+}
+
+type Director {
+  name: String!
+  birthday: String!
+  country: String!
+}
+
+type Query {
+  movies: [Movie]!
+}

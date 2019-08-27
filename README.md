@@ -13,6 +13,6 @@ npm start
 ## Usage
 
 ```
-cd front-end/my-app
+cd front-end/app
 npm start
 ```
